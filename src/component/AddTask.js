@@ -9,7 +9,7 @@ const AddTask = () => {
       const handleShow = () => setShow(true);
       const addFunc =()=>{
         if(newTask.trim()){
-          dispatch ({type:"add", payload :newTask})
+          dispatch ({type:"add", payload : newTask})
           handleClose();
         }
       }

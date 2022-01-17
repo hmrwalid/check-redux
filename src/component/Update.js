@@ -5,7 +5,7 @@ const Update = ({task}) => {
     const dispatch = useDispatch();
 
     const [edit, setEdit] = useState(false);
-    const [name, setName] = useState(task.name)
+    const [name, setName] = useState("")
     const funDelet= (id)=>{
         dispatch({type :"delete", payload : id})
       }
@@ -15,7 +15,6 @@ const Update = ({task}) => {
       const funcUpdate=(id, name)=>{
         if(name.trim())  {
           dispatch({type :"update", payload : {name,id}})}
-          console.log(name);
       }
     return (
         <div>
