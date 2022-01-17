@@ -1,0 +1,53 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.todoDiv{
+  display :'flex'; 
+  flex-direction: row;
+  justify-content: "space-between"
+}
+.sp{
+  border: solid olive;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+}
+.sp:hover{
+  cursor: pointer;
+  background-color: palegreen;
+}
+.head{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.list-group-item {
+  min-height: 42px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn {
+  margin: 4px;
+  cursor: pointer;
+}
+
+text.done {
+  text-decoration:line-through;
+  font-style: italic;
+  color: #aaa;
+}
+
+span.label-link {
+  color: blue;  
+}
+
+
+li{
+  text-decoration: none;
+   padding: 3px ;
+}
